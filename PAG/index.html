@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js.js"></script>
+    
+    <title>NerdocesUniverso</title>
+</head>
+<body onload="iniciaSlider()">
+    <nav>
+        <div id="home">
+            <a href="http://"><img id="lista" src="lista.png" alt=""></a>
+            <img id="logo" src="LOGO.png" alt="">
+            <a href=http://127.0.0.1:5500/login.html><img id="car" src="car.png" alt=""></a>
+        </div>
+        
+        <div id="menu">
+            
+           <p id="produtos"> TODOS OS PRODUTOS</p>
+           <button id="setaa6"  class="dropbtn"><img img src="setav.png" alt=""></button> 
+           <p id="promocoes"> PROMOÇÕES</p>
+            <button id="setaa7" ><img " src="setav.png" alt=""></button>//
+            <input type="search" placeholder="PESQUISAR..." name="pesquisar" id="pesq"><button><img id="search" src="pesq.png" alt=""></button></inptu>
+        </div>
+        
+        <div id="fotos"> 
+            <p id="p1">QUE O DOCE <br>
+                E A FORÇA <br>
+                ESTEJAM <br>
+                SEMPRE <br>
+                COM VOCÊ</p>
+
+                <div id="moldura1"></div>
+                <div id="moldura2"></div>
+                <button onclick="prox()" id="right" value=""><img id="poly" src="polygon.png" alt=""></button>
+                <button onclick="prox()" id="left" value=""> <img id="poly" src="polygon.png" alt=""></button>
+                
+        </div>
+
+
+
+
+            <nav>
+                <hr>
+                <div id="background">
+                    <div id="dlc">
+                        <h1 id="maes">❤DIA DOS NAMORADOS❤</h1>
+                        
+                        <div id="oponente1">
+                            <img id="coracao1" src="coracao.png" alt="">
+                        </div>
+
+                        
+
+                            <h1 id="vs">vs</h1>
+
+                        <div id="start1"> <a href=http://127.0.0.1:5500/login.html><button id="start">START</button></a></div>
+
+                            <img id="oponente2" src="coracao2.png" alt="">
+    
+                       <a href=http://127.0.0.1:5500/login.html> <div id="start2"> <button id="start">START</button></div></a>
+                    
+                    </div>
+
+                           
+                        <hr id="pontilhada">
+                                   
+                      
+                        <hr id="pontilhada2">
+
+                        <div id="prod">
+                            <h1 id="um">CARDÁPIO</h1>
+                            <h1 id="dois">PREÇOS</h1>
+                             <img id="prod1" src="tabelapreco1.jpeg" alt="">
+                             <img id="prod2" src="tabelapreco2.jpeg" alt="">
+
+                             <img id="card1" src="cardapio1.jpeg" alt="">
+                             <img id="card2" src="cardapio2.jpeg" alt="">
+
+                        </div>
+                        
+                       
+                </div>
+                
+
+                <footer>
+                    <img id="logofoot" src="logo2.jpeg" alt="">
+                    <b> <p id="desenvolvido"> ESTE SITE FOI TOTALMENTE <br> DESENVOLVIDO POR ALUNOS DO MODULO 3 <br> <br>
+                    GOSTARIA DE TER UM SITE? <br> VENHA CONHECER A Fcode
+                    </p></b>
+                    
+                    <p id="direitos"><b>TODOS DIREITOS RESERVADOS </b></p>
+                    <p id="nerd">© NERDOCESUNIVERSE.COM.BR 2021</p>
+
+                    <div id="socialmedias">
+                        <div id="infos">
+                        <a href=http://127.0.0.1:5500/index.html><img id="seta1" src="seta.png" alt=""> <p id="in">INÍCIO</p>
+                            <img  id="seta2" src="seta.png" alt=""><p id="sob">SOBRE</p>
+                            <img id="seta3" src="seta.png" alt=""><p id="rec">RECEITAS</p>
+                        </div>
+                        <a href=https://www.instagram.com/nerdocesuniverso/><img id="insta" src="insta.png" alt=""></a>
+                        <a href=https://api.whatsapp.com/send?phone=5531994005388&text=Bem%20Vindo%20a%20Nerdoces%20Universo>  <img id="wpp" src="wpp.png" alt=""></a>
+                        <a href=https://www.google.com.br/> <img id="google" src="google.png" alt=""></a>
+                        <a href=https://www.facebook.com/francielen.morroni.7> <img id="faceb" src="face.png" alt=""></div></a>
+                </footer>
+
+            </nav>
+        
+    </nav>
+
+
+
+
+    
+
+    <script>
+function iniciaSlider(){
+        
+        max=22;
+        min=9;
+        fi=min;9
+        tr=true;
+        carregaFoto("ovo9.png");
+    }
+
+    function fimTr(){
+        tr=true;
+    }
+    function carregaFoto(foto1){
+        document.getElementById("moldura1").style.backgroundImage="URL("+foto1+")";
+        document.getElementById("moldura2").style.backgroundImage="URL("+foto1+")";
+    }
+    
+    function prox(){
+
+            fi++;
+            if(fi>max){
+                fi=min;
+            }
+            carregaFoto("ovo"+fi+".png");
+       
+    }
+    function ant(){
+            fi--;
+            if(fi<min){
+            fi=max;
+            }
+             carregaFoto("ovo"+fi+".png");
+         
+    }
+      
+
+
+            /* FUNÇÃO DO BOTAO 2*/
+
+            function iniciaSlider(){
+        
+        max=22;
+        min=9;
+        fi=min;9
+        tr=true;
+        carregaFoto("ovo9.png");
+    }
+
+    function fimTr(){
+        tr=true;
+    }
+    function carregaFoto(foto1){
+        document.getElementById("moldura1").style.backgroundImage="URL("+foto1+")";
+        document.getElementById("moldura2").style.backgroundImage="URL("+foto1+")";
+    }
+    
+    function prox(){
+
+            fi++;
+            if(fi>max){
+                fi=min;
+            }
+            carregaFoto("ovo"+fi+".png");
+       
+    }
+    function ant(){
+            fi--;
+            if(fi<min){
+            fi=max;
+            }
+             carregaFoto("ovo"+fi+".png");
+         
+    }
+      
+    </script>
+     
+
+</body>
+</html>

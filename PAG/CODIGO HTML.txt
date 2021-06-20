@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js.js"></script>
+    
+    <title>NerdocesUniverso</title>
+</head>
+<body onload="iniciaSlider()">
+    <nav>
+        <div id="home">
+            <a href="http://"><img id="lista" src="lista.png" alt=""></a>
+            <img id="logo" src="LOGO.png" alt="">
+            <a href="http://"><img id="car" src="car.png" alt=""></a>
+        </div>
+        
+        <div id="menu">
+           <p id="produtos"> TODOS OS PRODUTOS</p>
+           <button id="setaa6"><img img src="setav.png" alt=""></button> 
+            <button id="setaa7"><img " src="setav.png" alt=""></button>
+            <p id="promocoes">PROMOÇÕES</p>
+            <input type="search" placeholder="PESQUISAR..." name="pesquisar" id="pesq"><button><img id="search" src="pesq.png" alt=""></button></inptu>
+        </div>
+        
+        <div id="fotos"> 
+            <p id="p1">QUE O DOCE <br>
+                E A FORÇA <br>
+                ESTEJAM <br>
+                SEMPRE <br>
+                COM VOCÊ</p>
+
+                <div id="moldura1"></div>
+                <div id="moldura2"></div>
+                <button onclick="prox()" id="right" value=""><img id="poly" src="polygon.png" alt=""></button>
+                 <button onclick="prox2()" id="left" value=""> <img id="poly" src="polygon.png" alt=""></button>
+                
+        </div>
+
+
+
+
+            <nav>
+                <hr>
+                <div id="background">
+                    <div id="dlc">
+                        <h1 id="maes"> DLC DE DIA DAS MÃES</h1>
+        
+                        <div id="oponente1"><img id="ovogo1" src="ovo4.png" alt=""></div>
+
+                        <div id="start1"> <button id="start">START</button></div>
+
+                            <h1 id="vs">vs</h1>
+
+                        <div id="oponente2"><img id="ovogo2" src="ovo6.png" alt=""></div>
+
+                        <div id="start2"> <button id="start">START</button></div>
+                    
+                    </div>
+                        <hr id="pontilhada">
+
+
+                        <hr id="pontilhada2">
+                       
+                </div>
+                <footer>
+                    <b> <p id="desenvolvido"> ESTE SITE FOI TOTALMENTE <br> DESENVOLVIDO POR str.com.br <br> <br>
+                    GOSTARIA DE TER UM SITE? <br> VENHA CONHECER A st.r.
+                    </p></b>
+                    
+                    <p id="direitos"><b>TODOS DIREITOS RESERVADOS </b></p>
+                    <p id="nerd">© NERDOCESUNIVERSE.COM.BR 2021</p>
+
+                    <div id="socialmedias">
+                        <div id="infos">
+                            <img id="seta1" src="seta.png" alt=""> <p id="in">INÍCIO</p>
+                            <img  id="seta2" src="seta.png" alt=""><p id="sob">SOBRE</p>
+                            <img id="seta3" src="seta.png" alt=""><p id="rec">RECEITAS</p>
+                        </div>
+                        <img id="insta" src="insta.png" alt=""> 
+                        <img id="wpp" src="wpp.png" alt="">
+                        <img id="google" src="google.png" alt="">
+                        <img id="faceb" src="face.png" alt=""></div>
+                </footer>
+
+            </nav>
+        
+    </nav>
+
+
+
+
+
+
+    <script>
+
+        function iniciaSlider(){
+        
+            max=6;
+            min=1;
+            fi=min;1
+            tr=true;
+            carregaFoto("ovo1.png");
+        }
+
+        function fimTr(){
+            tr=true;
+        }
+        function carregaFoto(foto){
+            document.getElementById("moldura1").style.backgroundImage="URL("+foto+")";
+            document.getElementById("moldura2").style.backgroundImage="URL("+foto+")";
+        }
+        
+        function prox(){
+
+                fi++;
+                if(fi>max){
+                    fi=min;
+                }
+                carregaFoto("ovo"+fi+".png");
+           
+        }
+        function ant(){
+                fi--;
+                if(fi<min){
+                fi=max;
+                }
+                 carregaFoto("ovo"+fi+".png");
+             
+        }
+
+
+
+            /* FUNÇÃO DO BOTAO 2*/
+
+        function iniciaSlider(){
+        max=6;
+        min=1;
+        fi=min;1
+        tr=true;
+        carregaFoto("ovo1.png");
+    }
+
+    function carregaFoto(foto){
+        document.getElementById("moldura1").style.backgroundImage="URL("+foto+")";
+        document.getElementById("moldura2").style.backgroundImage="URL("+foto+")";
+    }
+    
+    function prox2(){
+
+            fi++;
+            if(fi>max){
+                fi=min;
+            }
+            carregaFoto("ovo"+fi+".png");
+       
+    }
+    function ant(){
+            fi--;
+            if(fi<min){
+            fi=max;
+            }
+             carregaFoto("ovo"+fi+".png");
+         
+    }
+    </script>
+
+
+</body>
+</html>

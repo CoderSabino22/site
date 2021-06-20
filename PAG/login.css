@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#corpo{
+position: absolute;
+width: 100%;
+height: 1900px;
+background: #421E20;
+}
+#cabecalho{
+    position: absolute;
+
+    height: 200px;
+    width: 100%;    
+}
+#lgmarrom{
+    
+    position: absolute;
+    width: 350px;
+    height: 140px;
+    margin-left: 15%;
+    margin-top: 40px;
+}
+#caixa{
+    position: absolute;
+    margin-top: 50px;
+    width: 60px;
+    height: 60px;
+    margin-left: 950px;
+    box-shadow: 1px 1px 0px #581620;
+}
+#carrinho{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 1330px;
+}
+#user{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 1770px;
+}
+#cartao{
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    margin-top: 55px;
+    margin-left: 2200px;
+}
+#confirm{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 2600px;
+}
+h1{
+position: absolute;
+width: 130px;
+height: 10px;
+font-family:"Press Start 2P" ;
+font-style: normal;
+font-weight: normal;
+font-size: 325x;
+line-height: 10px;
+/* identical to box height */
+color: #CD3E52;
+text-shadow: 1px 1px 0px #581620;
+}
+#prod{
+    position: absolute;
+    margin-left: 885px;
+    margin-top: 130px;
+}
+#car{
+    position: absolute;
+    margin-left: 1270px;
+    margin-top: 130px;
+}
+#iden{
+    position: absolute;
+    margin-left: 1650px;
+    margin-top: 130px;
+}
+#pag{
+    position: absolute;
+    margin-left: 2130px;
+    margin-top: 130px;
+
+}
+#confi{
+    position: absolute;
+    margin-left: 2500px;
+    margin-top: 130px;
+}
+#corpo2{
+    margin-left: 17%;
+    width:2200px;
+    height: 1550px;
+    position: absolute;
+    background: rgba(255, 214, 208, 0.6);
+    margin-top: 200px;
+}
+#cep{
+    position: absolute;
+    width:100%;
+    height: 100px;
+    background-color: #FFD6D0;
+}
+#caminhao1{
+    position: absolute;
+    height:80px ;
+    width: 90px;
+    margin-left: 370px;
+    margin-top: 10px;
+}
+#endereco{
+    color: #CD3E52;
+    position: absolute;
+    font-family: "Press Start 2P";
+    font-size: 25px;
+    color: #CD3E52;
+    text-shadow: 1px 1px 0px #581620;
+    margin-left: 510px;
+    margin-top: 45px;
+}
+#carvazio{
+    position: absolute;
+    width: 70%;
+    height: 900px;
+    background-color: #FFD6D0;
+    margin-top: 150px;
+    margin-left: 15%;
+    
+}
+#vazio{
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 200px;
+    font-size: 40px;
+    font-family: "Press Start 2P";
+    color: #581620;
+    text-shadow: 5px 5px 0px rgba(205, 62, 82, 0.6);
+}
+#outros{
+    position: absolute;
+    margin-left: 26%;
+    margin-top: 350px;
+    font-size: 25px;
+    font-family: "Press Start 2P";
+    color: #581620;
+    text-shadow: 5px 5px 0px rgba(205, 62, 82, 0.6);
+}
+#carrinhomais{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 500px;
+    width:130px ;
+    height: 130px;
+}
+#continuar{
+position: absolute;
+font-family: "Press Start 2P";
+line-height: 65px;
+color: #CD3E52;
+font-size: 35px;
+margin-left: 700px;
+margin-top: 510px;
+text-shadow: 3px 3px 0px #581620;
+}
+#favoritos{
+    font-size: 30px;
+    position: absolute;
+    font-family: "Press Start 2P";
+    color: #581620;
+    margin-top: 1150px;
+    margin-left: 330px;
+}
+#favoritos2{
+    width: 70%;
+    height: 300px;
+    background-color:#FFD6D0;
+    position: absolute;
+    margin-top: 1200px;
+    margin-left: 15%;
+}
+#favoritos3{
+    position: absolute;
+    width: 1200px;
+    height: 250px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+#pesq{
+    position: absolute;
+    padding: 10px;
+    width: 335px;
+    font-size: 25px;
+    font-family: 'Fira Code';
+    height: 50px;
+    left: 1700px;
+    top: 30px;
+    position: absolute;
+    background-color: #FFD6D0;
+    color: #000000;
+    border: 3px solid #581620;
+    filter: drop-shadow(5px 5px 0px #581620);
+    box-shadow: 1px 1px 0px #581620;
+    cursor: pointer;
+    outline: none;
+}
+#search{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 40px;
+    bottom: 10.06%;
+    filter: drop-shadow(3px 3px 0px #421E20);
+    margin-left: 1990px;
+
+}

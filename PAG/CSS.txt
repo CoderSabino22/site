@@ -1,0 +1,578 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ffd6d0;
+}
+#home{
+
+    position: absolute;
+    width:100%;
+    height: 230px;
+    left: 0px;
+    top: 0px;
+    /* --color-first */
+    background: #FFD6D0;
+}
+#logo{
+    position: absolute;
+    width: 432px;
+    height: 191px;
+    left: 43%;
+    top: 26px;
+}
+#menu{
+    position: absolute;
+    width: 3380px;
+    height: 78px;
+    left: 0px;
+    top: 236px;
+    /* --color-second */
+    background: #CD3E52;
+    border: 5px solid #000000;
+}   
+#fotos{
+    position: absolute;
+    width:3390px;
+    height: 900px;
+    top: 324.23px;
+    background: #421E20;
+    
+
+}
+#ovos{
+    width: 1050px;
+    height: 1050px;
+    margin-left: 200px ;
+}
+#ovo1{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 700px;
+    top: 80px;
+}
+#ovo2{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 2120px;
+    top: 80px;
+}
+#p1{
+    position: absolute;
+    width: 540px;
+    height: 426.24px;
+    left:43%;
+    top: 10%;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 85px;
+    /* or 177% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFD6D0;
+    text-shadow: 3px 3px 0px #EEEEEE;
+}
+#background{
+
+    position: absolute;
+    width: 100%;
+    height: 2411px;
+    left: 0px;
+    top: 1100px;
+    
+    background: #FFD6D0;
+}
+#dlc{
+    position: absolute;
+    width:100%;
+    height: 887px;
+    top: 0px;
+    background-color:#FFD6D0;
+}
+#maes{
+    position: absolute;
+    left: 30%;
+    top: 100px;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 72px;
+    color: #581620;
+    text-shadow: 5px 5px 0px #CD3E52;
+}
+#oponente1{
+    position: absolute;
+    width: 600px;
+    height: 700.51px;
+    left: 700px;
+    top: 350px;
+    background: #581620;
+    border: 5px solid #FFD6D0;
+    box-shadow: 5px 5px 0px #581620;
+}
+#oponente2{
+    position: absolute;
+    width: 600px;
+    height: 700.51px;
+    left: 2110px;
+    top: 350px;
+    background: #581620;
+    border: 5px solid #FFD6D0;
+    box-shadow: 5px 5px 0px #581620;
+}
+#vs{
+    position: absolute;
+    width: 152px;
+    height: 72px;
+    left: 47%;
+    top: 600px;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 70px;
+    text-align: center;
+    color: #000000;
+}
+hr{
+    
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: -15px;
+    top: 1090px;
+    border: 5px solid #CD3E52;
+}
+#start1{
+    position: absolute;
+    width: 480px;
+    height: 110.49px;
+    left: 760px;
+    top: 1110px;
+    background: #CD3E52;
+    box-shadow: 5px 5px 0px #581620;
+}
+#start2{
+    position: absolute;
+    width: 480px;
+    height: 110.49px;
+    left: 2180px;
+    top: 1110px;
+    background: #CD3E52;
+    box-shadow: 5px 5px 0px #581620;
+    text-decoration: none;
+}
+#start{
+    position: absolute;
+    width: 350px;
+    height: 70px;
+    left: 80px;
+    top: 20px;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 70px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFD6D0;
+    text-shadow: 3px 3px 0px #581620;
+    text-decoration: none;
+    background-color: #CD3E52;
+}
+#pontilhada{
+    position: absolute;
+    width: 3380px;
+    height: 0px;
+    top: 1500px;
+    border: 10px dashed #303030;
+}
+#pontilhada2{
+    position: absolute;
+    width: 3380px;
+    height: 0px;
+    top: 3000px;
+    border: 10px dashed #303030;
+}
+footer{
+    width: 3390px;
+    position: absolute;
+    height: 507px;
+    top: 4200px;
+    background: #421E20;
+}
+#desenvolvido{
+    
+    position: absolute;
+    width: 500px;
+    height: 165px;
+    left: 100px;
+    top: 200px;
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    color: rgba(255, 214, 208, 0.6);
+
+
+}
+#direitos{
+    position: absolute;
+    width: 375px;
+    height: 33px;
+    left: 1520px;
+    top:400px;
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+    /* identical to box height */
+    color: rgba(255, 214, 208, 0.6);
+}
+#nerd{
+    position: absolute;
+    width: 324px;
+    height: 24px;
+    left: 1550px;
+    top: 440px;
+    font-family:'Fira Code';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    color: rgba(255, 214, 208, 0.6);
+}
+#lista{
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    left: 34px;
+    top: 41px;
+    filter: drop-shadow(5px 5px 0px #000000);
+}
+#car{
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    left: 3200px;
+    top: 49px;
+    filter: drop-shadow(5px 5px 0px #000000);
+}
+#produtos{
+    position: absolute;
+    width: 306px;
+    height: 33px;
+    left: 1000px;
+    top: 25px;
+    font-family:'Fira Code';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    /* identical to box height */
+    /* --color-black-second */
+    color: #421E20;
+}
+#promocoes{
+    position: absolute;
+    width: 135px;
+    height: 33px;
+    left: 1930px;
+    top: 25px;
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    /* identical to box height */
+    /* --color-black-second */
+    color: #421E20;
+}
+#setaa6{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 2120px;
+    background-color: #CD3E52;
+    filter: drop-shadow(3px 3px 0px #581620)
+}
+#setaa7{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1330px;
+    top: 15px;
+    background-color: #CD3E52;
+    filter: drop-shadow(3px 3px 0px #581620)
+}
+#seta6{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 2120px;
+    top: 15px;
+    filter: drop-shadow(3px 3px 0px #581620);
+}
+#seta7{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1330px;
+    top: 15px;
+    filter: drop-shadow(3px 3px 0px #581620);
+
+}
+#pesq{
+    position: absolute;
+    padding: 10px;
+    width: 335px;
+    font-size: 25px;
+    font-family: 'Fira Code';
+    height: 50px;
+    left: 2600px;
+    top: 15px;
+    position: absolute;
+    background-color: #FFD6D0;
+    color: #000000;
+    border: 3px solid #000;
+    filter: drop-shadow(5px 5px 0px #000000);
+    cursor: pointer;
+    outline: none;
+    
+}
+#search{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 05%;
+    right: 10.06%;
+    top: 10%;
+    bottom: 10.06%;
+    filter: drop-shadow(3px 3px 0px #421E20);
+
+}
+button{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 2870px;
+    top: 19px;
+    background-color: #FFD6D0;
+    border: none;
+    cursor: pointer;
+}
+#right{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1500px;
+    top: 600px;
+    /* --color-second */
+    background: #CD3E52;
+    box-shadow: 4.8888px 4.8888px 0px #000000;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+#left{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1850px;
+    top: 600px;
+    /* --color-second */
+    background: #CD3E52;
+    box-shadow: 4.8888px 4.8888px 0px #000000;
+}
+
+#poly{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/* CARROSEL*/
+
+#quadro1{
+    position: absolute;
+    width: 500px;
+    height: 512px;
+    margin-left: 800px;
+    margin-top: 80px;
+    transition: background-image 2s;
+
+}
+
+#moldura2{
+    position: absolute;
+    width: 500px;
+    height: 512px;
+    margin-left: 2100px;
+    margin-top: 80px;
+    transition: background-image 2s;
+    
+}
+#ovogo1{
+    position: absolute;
+    margin-top: 100px;
+    left: 50px;
+}
+#ovogo2{
+position: absolute;
+left: 50px;
+margin-top: 100px;
+}
+#insta{
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 3100px;
+    top: 50px;
+    
+}
+#wpp{
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 3100px;
+    top: 150px;
+    
+}
+#google{
+
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 3100px;
+    top: 250px;
+    
+}
+#faceb{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 3100px;
+    top: 350px;
+}
+#seta1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1500px;
+    top: 0px;
+    filter: drop-shadow(3px 3px 0px rgba(205, 62, 82, 0.6));
+}
+#seta2{
+position: absolute;
+width: 200px;
+height: 200px;
+left: 1500px;
+top: 100px;
+filter: drop-shadow(3px 3px 0px rgba(205, 62, 82, 0.6));
+}
+#seta3{
+position: absolute;
+width: 200px;
+height: 200px;
+left: 1500px;
+top: 200px;
+filter: drop-shadow(3px 3px 0px rgba(205, 62, 82, 0.6));
+
+    
+}
+#in{
+    position: absolute;
+    width: 121px;
+    height: 44px;
+    left: 1630px;
+    top: 80px;
+    
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    
+    color: rgba(255, 214, 208, 0.6);
+    
+}
+#sob{
+    position: absolute;
+    width: 101px;
+    height: 44px;
+    left: 1630px;
+    top: 180px;
+    
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    
+    color: rgba(255, 214, 208, 0.6);
+    
+}
+#rec{
+
+    position: absolute;
+    width: 162px;
+    height: 43px;
+    left: 1630px;
+    top: 280px;
+    
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    
+    color: rgba(255, 214, 208, 0.6);
+}
+
+  function iniciaSlider(){
+        
+            max=22;
+            min=9;
+            fi=min;9
+            tr=true;
+            carregaFoto("ovo9.png");
+        }
+
+        function fimTr(){
+            tr=true;
+        }
+        function carregaFoto(foto){
+            document.getElementById("moldura2").style.backgroundImage="URL("+foto+")";
+        }
+        
+        function prox(){
+
+                fi++;
+                if(fi>max){
+                    fi=min;
+                }
+                carregaFoto("ovo"+fi+".png");
+           
+        }
+        function ant(){
+                fi--;
+                if(fi<min){
+                fi=max;
+                }
+                 carregaFoto("ovo"+fi+".png");
+             
+        }
+
+
+onclick="prox()"  id="right" value=""
+
+ onclick="prox()" id="left" value=""
